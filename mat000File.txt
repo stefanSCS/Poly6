@@ -1,0 +1,51 @@
+# This is a comment line
+### s0, s15, s30, s45, s60, s75, s90 are the the directional yield stresses
+### r0, r15, r30, r45, r60, r75, r90 are the the directional r-values
+### the minimal data set must include {s0,s45,s90} and {r0,r45,r90}
+### for the rest of the input values, use the symbol '*' (without the quotes) to signal missing data
+### sb and rb are the balanced biaxial yield stress and r-value
+### bxShape is the lambda parameter used to calculate the shape parameter for the biaxial curve
+### The accepted values for bxShape are (0.01,1)
+###
+###If missing directional data provide a value for 'option' 
+###option can be 0,1 or 2 where 
+## 0 = no heuristic data is used
+## 1 = heuristic data points are added at PI/8 and 3*PI/8 
+## 2 = heuristic data points are added at PI/12, 2*PI/12, 4*PI/12 and 5*PI/12
+
+##This input file is a demo template and uses ISO data 
+
+name= ISO
+
+## Note: 'type' must be either 'AL' or 'FE'
+type= FE
+
+###BIAXIAL DATA	
+s0= 1.0  
+r0=1.0
+sb=1.0
+rb=1.0
+s90=1.0
+r90=1.0
+
+### lambda = 0.48087 ---> this corresponds to the von Mises shape
+bxShape=0.1
+
+###DIRECTIONAL DATA	
+s15=*
+r15=*
+s30=*
+r30=*
+s45=1.0
+r45=1.0
+s60= * 
+r60= * 
+s75=*
+r75=*
+
+####OPTION
+option= 2
+
+
+
+
