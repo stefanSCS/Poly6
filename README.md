@@ -32,13 +32,16 @@ python  aPoly6_v2.py
 -------Version: 'aPoly6' (initial)-------------------------------------------------------
 
 ----USAGE----
+
 In shell/cmd navigate to the location where both 'aPoly6.py' and 'mat000File.txt' are stored.
 Execute:
 
 python  aPoly.py
 
-Notes:
+
+---NOTES----
 --tested with Python 3.7.9 (should work with any version 3.*);
+
 --requires the Python packages 'numpy' and 'matplotlib'.
 
 ----INPUT---
