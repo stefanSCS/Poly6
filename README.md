@@ -2,6 +2,28 @@
 ----LICENCE---
 This software is distributed under the MIT license
 
+
+-------Version: 'aPoly6_v2' (follows 'aPoly6')-------------------------------------------------------
+----NOTES-----
+--Focus on speed: the computationally intensive parts (convexity check and sections plots) are now implemented in C (file: cFuncs.c);
+--The functions 'cvxCheck' and  'plotPoly6' were reimplemented to call via 'ctypes' corresponding C-functions.
+
+----USAGE----
+--The C-functions are implemented in 'cFuncs.c'; 
+----In order for 'aPoly6_v2.py' to be able to call them, 'cFuncs.c' must be compiled as a shared library. 
+----In shell (command promt), navigate to your working directory (the location of 'aPoly6_v2.py') 
+and compile 'cFuncs.c' as a shared object via:
+
+gcc -fPIC -shared -o cFuncs.so  cFuncs.c
+
+
+Then simply execute:
+
+python  aPoly6_v2.py
+
+
+
+-------Version: 'aPoly6' (initial)-------------------------------------------------------
 ----USAGE----
 In shell/cmd navigate to the location where both 'aPoly6.py' and 'mat000File.txt' are stored.
 Execute:
