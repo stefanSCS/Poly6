@@ -4,8 +4,10 @@ This software is distributed under the MIT license
 
 
 -------Version: 'aPoly6_v2' (follows 'aPoly6')-------------------------------------------------------
+
 ----NOTES-----
---Focus on speed: the computationally intensive parts (convexity check and sections plots) are now implemented in C (file: cFuncs.c);
+--Focus on speed: the computationally intensive parts (convexity check and sections plots) 
+are now implemented in C (file: cFuncs.c);
 --The functions 'cvxCheck' and  'plotPoly6' were reimplemented to call via 'ctypes' corresponding C-functions.
 
 ----USAGE----
