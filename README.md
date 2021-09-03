@@ -1,5 +1,6 @@
 # Poly6
 ----LICENCE---
+
 This software is distributed under the MIT license
 
 
@@ -29,6 +30,7 @@ python  aPoly6_v2.py
 
 
 -------Version: 'aPoly6' (initial)-------------------------------------------------------
+
 ----USAGE----
 In shell/cmd navigate to the location where both 'aPoly6.py' and 'mat000File.txt' are stored.
 Execute:
