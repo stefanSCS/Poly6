@@ -4,7 +4,7 @@ This code generates the polynomial Poly6-model of an orthotropic sheet metal bas
 
 - Preprint (first draft): *A parameter identification scheme for the orthotropic Poly6 yield function satisfying the convexity condition* (posted at [ResearchGate](http://dx.doi.org/10.13140/RG.2.2.18552.78082))
 
--     
+- Final, revised version at: [European Journal of Mechanics - A/Solids](https://doi.org/10.1016/j.euromechsol.2021.104467) 
 
 There are two versions (with details described next):
 
